@@ -76,16 +76,4 @@
 			</div>
 		</div>
 
-		<footer>
-			<div class="container">
-				
-			</div>
-		</footer>
-
-		<div class="footsite">
-			<div class="container">
-				<p class="copy">&copy; - Copyright 2018</p>
-			</div>
-		</div>
-	</body>
-</html>
+	<?php require_once 'partials/_footer.php';  ?>

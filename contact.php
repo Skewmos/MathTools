@@ -21,10 +21,12 @@
                       <label for="exampleInputText">Votre message </label>
                      <textarea  class="form-control" placeholder="Description"></textarea> 
                     </div>
-                    <button type="submit" class="btn btn-default">Envoyer</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                   </form>
                 </div>
               </div>
             </div>
         </div>
       </section>
+
+<?php require_once 'partials/_footer.php';  ?>
