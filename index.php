@@ -3,12 +3,19 @@
 	<head>
 		<title>MathTools</title>
 		<meta charset="utf-8">
+		<meta name="author" content="Jérémie & Mathéo ">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    	<meta name="description" content="Projet web regroupant une suite d'outils mathématiques à fin de simplifier les calculs etc...">
 		
 		<!--Bootswatch-->
 		<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/lux/bootstrap.min.css" rel="stylesheet" integrity="sha384-ML9h/UCooefre72ZPxxOHyjbrLT1xKV0AHON1J+OlOV2iwcYemqmWyMfTcfyzLJ1" crossorigin="anonymous">
 
 		<!--Style css -->
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="assets/style/css/style.css">
+
+		<!-- Font Custom -->
+    	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 	</head>
 
 	<body>
@@ -34,19 +41,24 @@
 			  	</div>
 		  	</div>
 		</nav>
-	
-		<header>	
-			<div  class="jumbotron" id="MAJ">
+
+	<!--Header -->
+		<header class="masthead">	
+			<div  class="container jumbotron" id="MAJ">
 				<h1 class="display-3">MathTools</h1>
 				<hr class="my-4">
 				<p class="entete">Qu'est-ce que c'est MathTools ? Des Mathématiques ? Un outil ?</p><br>
 				<p class="normal">Nous vous proposons ici même de vérifier, ou de vous apporter une aide mathématiques pour vos calculs. Vous trouverez tout types d'outils sur des calculs precis, tout comme le calcul de delta (&#916) par exemple.</p>
 			</div>
+			<div class="container text-center">
+				<a href="#about" class="btn btn-primary js-scroll-trigger">Outils</a>
+			</div>
 		</header>
 
 		<div class="container">
 			<h2 class="titleh2">Nos outils :</h2><br>
-			<div  class="row">
+			<div class="box">
+				<div  class="row">
 				<div class="col-md-6 col-lg-4">
 					<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
   						<div class="card-header">Thème de l'outil</div>
@@ -103,6 +115,7 @@
 					</div>
 				</div>
 				<div class="space"></div>
+			</div>
 			</div>
 		</div>
 

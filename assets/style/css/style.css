@@ -1,0 +1,131 @@
+.navbar-brand{
+	font-size: 2.5em;
+}
+
+.nav-item{
+	font-size: 1.2em;
+}
+
+#MAJ{
+	background-color: #5c5757;
+}
+
+.display-3{
+	text-align: center;
+	font-family: Arial black;
+	margin-bottom: 40px;
+}
+
+.my-4{
+	background-color: white;
+}
+
+.entete{
+	text-align: center;
+	font-size: 2em;
+	color: #efecec;
+	margin-top: 50px;
+}
+
+.normal{
+	font-size: 18px;
+	text-align: justify;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #efecec;
+}
+
+.titleh2{
+	font-size: 3em;
+	font-family: Calibri;
+}
+
+.space{
+	margin-bottom: 240px;
+}
+
+.footsite{
+	background-color: #1a1a1a;
+	text-align: center;
+	padding: 1px;
+}
+
+.copy{
+	padding-top: 20px;
+	color: white;
+}
+
+/* Header */ 
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background-color: #242224;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@media (min-width: 768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+
+  /* Modification du bootstrap */
+  .jumbotron{
+  	background-color: #363434 !important;
+  }
+  body{
+  	background-color: #efecec !important;
+  }
+
+  .box{
+  	text-align: center;
+  }
+
+.btn {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+}
+  .btn {
+    border-radius: 1.078em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.875em;
+}
+
+.btn-primary {
+    background-color: #62929a;
+}
